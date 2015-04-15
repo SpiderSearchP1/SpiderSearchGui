@@ -27,10 +27,10 @@ public class HelpScreen extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel1 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
         jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
         OpMenu = new javax.swing.JMenu();
         OPBack = new javax.swing.JMenuItem();
@@ -41,15 +41,10 @@ public class HelpScreen extends javax.swing.JFrame {
         setMinimumSize(new java.awt.Dimension(1121, 940));
         getContentPane().setLayout(null);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("/home/osboxes/NetBeansProjects/SpiderBot/SpriderBot/pantalla2.JPG")); // NOI18N
-        jLabel1.setText("jLabel1");
-        getContentPane().add(jLabel1);
-        jLabel1.setBounds(80, 270, 950, 640);
-
         jTextArea1.setEditable(false);
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
-        jTextArea1.setText("Puntos\n1. barra de busqueda: nos sirve para buscar la informacion que queramos en la base de datos creada por el spider \n\t            search.\n\n2. Boton de busqueda: se utiliza para realizar una busqueda en base al dato que hayamos buscado.\n\n3. Zona de informacion: esta zona se utiliza para desplegar la infromacion que nos proporciona la base datos con \n\t                respecto a los links que apuntan a cada coindicendia segun las busqueda pedida.\n\n4. Barra de opciones: se tienen dos puntos para la barra de informacion:\n\t          1. Opcion de ayuda: accede al menu de ayuda para la obtencion de informacion de como usar \n\t\t                  la aplicacion.\n\t           2. Opcion de salir: cierra el programa.\n");
+        jTextArea1.setText("Puntos\n1. barra de busqueda: nos sirve para buscar la informacion que queramos en la base de datos creada por el spider \n\t            search.\n\n2. Boton de busqueda: se utiliza para realizar una busqueda en base al dato que hayamos buscado.\n\n3. Zona de informacion: esta zona se utiliza para desplegar la infromacion que nos proporciona la base datos con \n\t                respecto a los links que apuntan a cada coindicendia segun las busqueda pedida.\n\n4. Barra de opciones: se tienen dos puntos para la barra de informacion:\n\t          1. Opcion de Conexion: intenta una conexion con el servidor TCP/IP para enviar y recibir datos.\n\t          2. Opcion de ayuda: accede al menu de ayuda para la obtencion de informacion de como usar \n\t\t                  la aplicacion.\n\t          3. Opcion de salir: cierra el programa.\n");
         jScrollPane1.setViewportView(jTextArea1);
 
         getContentPane().add(jScrollPane1);
@@ -58,6 +53,10 @@ public class HelpScreen extends javax.swing.JFrame {
         jLabel2.setText("Panel de informacion");
         getContentPane().add(jLabel2);
         jLabel2.setBounds(10, 10, 210, 50);
+
+        jLabel3.setIcon(new javax.swing.ImageIcon("/home/osboxes/NetBeansProjects/SpiderSearchGui/pantalla2.png")); // NOI18N
+        getContentPane().add(jLabel3);
+        jLabel3.setBounds(60, 270, 900, 630);
 
         OpMenu.setText("Options");
 
@@ -134,8 +133,8 @@ public class HelpScreen extends javax.swing.JFrame {
     private javax.swing.JMenuItem OPBack;
     private javax.swing.JMenuItem OPOut;
     private javax.swing.JMenu OpMenu;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextArea jTextArea1;

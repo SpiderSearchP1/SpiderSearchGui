@@ -59,19 +59,6 @@
     <Property name="useNullLayout" type="boolean" value="true"/>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JLabel" name="jLabel1">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="/home/osboxes/NetBeansProjects/SpiderBot/SpriderBot/pantalla2.JPG"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="jLabel1"/>
-      </Properties>
-      <Constraints>
-        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="80" y="270" width="950" height="640"/>
-        </Constraint>
-      </Constraints>
-    </Component>
     <Container class="javax.swing.JScrollPane" name="jScrollPane1">
       <AuxValues>
         <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
@@ -89,7 +76,7 @@
             <Property name="editable" type="boolean" value="false"/>
             <Property name="columns" type="int" value="20"/>
             <Property name="rows" type="int" value="5"/>
-            <Property name="text" type="java.lang.String" value="Puntos&#xa;1. barra de busqueda: nos sirve para buscar la informacion que queramos en la base de datos creada por el spider &#xa;&#x9;            search.&#xa;&#xa;2. Boton de busqueda: se utiliza para realizar una busqueda en base al dato que hayamos buscado.&#xa;&#xa;3. Zona de informacion: esta zona se utiliza para desplegar la infromacion que nos proporciona la base datos con &#xa;&#x9;                respecto a los links que apuntan a cada coindicendia segun las busqueda pedida.&#xa;&#xa;4. Barra de opciones: se tienen dos puntos para la barra de informacion:&#xa;&#x9;          1. Opcion de ayuda: accede al menu de ayuda para la obtencion de informacion de como usar &#xa;&#x9;&#x9;                  la aplicacion.&#xa;&#x9;           2. Opcion de salir: cierra el programa.&#xa;"/>
+            <Property name="text" type="java.lang.String" value="Puntos&#xa;1. barra de busqueda: nos sirve para buscar la informacion que queramos en la base de datos creada por el spider &#xa;&#x9;            search.&#xa;&#xa;2. Boton de busqueda: se utiliza para realizar una busqueda en base al dato que hayamos buscado.&#xa;&#xa;3. Zona de informacion: esta zona se utiliza para desplegar la infromacion que nos proporciona la base datos con &#xa;&#x9;                respecto a los links que apuntan a cada coindicendia segun las busqueda pedida.&#xa;&#xa;4. Barra de opciones: se tienen dos puntos para la barra de informacion:&#xa;&#x9;          1. Opcion de Conexion: intenta una conexion con el servidor TCP/IP para enviar y recibir datos.&#xa;&#x9;          2. Opcion de ayuda: accede al menu de ayuda para la obtencion de informacion de como usar &#xa;&#x9;&#x9;                  la aplicacion.&#xa;&#x9;          3. Opcion de salir: cierra el programa.&#xa;"/>
           </Properties>
         </Component>
       </SubComponents>
@@ -101,6 +88,18 @@
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
           <AbsoluteConstraints x="10" y="10" width="210" height="50"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="2" name="/home/osboxes/NetBeansProjects/SpiderSearchGui/pantalla2.png"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="60" y="270" width="900" height="630"/>
         </Constraint>
       </Constraints>
     </Component>

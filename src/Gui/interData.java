@@ -26,18 +26,36 @@ public class interData {
         }
     }
     
+    /**
+     * devuelve el cliente en caso de que se tenga que darle algun uso
+     * @return client
+     */
     public Cliente getCliente(){
         return client;
     }
     
+    /**
+     * devuelve el estado de la conexion con el servidor.
+     * @return 
+     */
     public boolean get_state(){
         return stateConn;
     }
     
+    /**
+     * envia un mensaje por medio del cliente al servidor para esperar 
+     * una respuesta
+     * @param msj 
+     */
     public void sendMsj(String msj){
         client.sendMsj(msj);
     }
     
+    /**
+     * devuelve una lista con todos los datos que se hayan recibido 
+     * de parte del servidor.
+     * @return 
+     */
     public ListaSdoble getDatos(){
         return client.extracInData();
     }

@@ -5,7 +5,6 @@
  */
 package Gui;
 
-import TCP_IP.Cliente;
 
 /**
  *

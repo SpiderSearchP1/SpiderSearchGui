@@ -7,7 +7,6 @@ package Gui;
 
 import Logica.ListaSdoble;
 import Logica.Nodo;
-import TCP_IP.Cliente;
 
 /**
  *
@@ -28,6 +27,7 @@ public class ventana extends javax.swing.JFrame {
         ayuda= new HelpScreen();
         palabras= new ListaSdoble();
         connect= new Conection();
+        SendM= new interData();
         initComponents();
     }
 
